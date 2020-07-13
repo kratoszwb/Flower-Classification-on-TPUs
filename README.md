@@ -2,7 +2,7 @@
 
 In this competition we're classifying 104 types of flowers based on their images drawn from five different public datasets.
 Some classes are very narrow, containing only a particular sub-type of flower (e.g. pink primroses) while other classes contain many sub-types (e.g. wild roses).
-
+![](images/EDA_BarChart.png)
 # Method
 
 We use external database including other pictures of flowers to increase the training set. On the basis of pre-trained models(with weights of ImgaeNet),
