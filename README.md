@@ -32,3 +32,4 @@ On the basis of pre-trained models(with weights of ImgaeNet), we adopt transfer 
 
 We customize a loss function named cos-layer which is defined in file named 'inceptionv3-md1.ipynb'.
 
+![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Validation.png)
