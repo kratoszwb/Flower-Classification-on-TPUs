@@ -8,7 +8,7 @@ Computer Vision is an trending research filed of artificial intelligence, which 
 
 ## Exploratory Data Analysis
 
-As we could see from the graph below, the numbers of different kinds of flowers differ a lot so that we may face the problem of class imbalance. In order to get rid of overfitting, we use the data augmentation to deal with this problem. Based on all the images already exist, random rotation, shear, zoom, shift, and more advanced approach can be done on the minority dataset by data augumentation. Besides, we use external database including other pictures of flowers to increase the training set.
+As we could see from the graph below, the numbers of different kinds of flowers differ a lot so that we may face the problem of class imbalance. In order to get rid of overfitting, we use the data augmentation to deal with this problem. Based on all the images already exist, random rotation, shear, zoom, shift, and more advanced approach can be done on the minority dataset by data augumentation. Besides, we use external database including other pictures of flowers to increase the training set. The process of data augmentation is in the file named 'Helper_Functions.py'.
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/EDA_BarChart.png)
 
@@ -25,11 +25,13 @@ Following Convolutional Neural Network are planned to be used:
 -	MobileNetV2
 -	InceptionResnetV2
 
-All the models are built in file named 'inceptionv3-md1.ipynb'. We use one model each time and all the other models are commented out. We collect results from
-all the models for ensembling. The process of ensembling is in the file named 'submissions-ensembling.ipynb'.
+All the models are built in file named 'Models.py'. We use one model each time and all the other models are commented out. We collect results from
+all the models for ensembling. The process of ensembling is in the file named 'Ensemble.py'.
 
 On the basis of pre-trained models(with weights of ImgaeNet), we adopt transfer learning to solve the flower classfication problem.
 
-We customize a loss function named cos-layer which is defined in file named 'inceptionv3-md1.ipynb'.
+We customize a loss function named cos-layer which is defined in file named Models.py'.
+
+Here is an example of the result of validation process.
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Validation.png)
