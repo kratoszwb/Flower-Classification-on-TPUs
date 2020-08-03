@@ -30,10 +30,16 @@ all the models for ensembling.
 
 On the basis of pre-trained models(with weights of ImgaeNet), we adopt transfer learning to solve the flower classfication problem. Also, we customize a loss function named cos-layer which is defined in file named 'Models.py'.
 
+## Ensembling
+
+The process of ensembling is in the file named 'Ensemble.py'. Eventually, 12 models are chosen and ensembling is the last step to apply all these models and get a better result. In this ciase, we apply Stacking as the way to do emsembling. The idea of Stacking is to learn several different weak learners and combine them by training a meta-model to make prediction.
+
+## Result
+
 Here is an example of the visualization of prediction outcomes.
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Validation.png)
 
-## Ensembling
+In the end, the 
 
-The process of ensembling is in the file named 'Ensemble.py'. Eventually, 12 models are chosen and ensembling is the last step to apply all these models and get a better result. In this ciase, we apply Stacking as the way to do emsembling. The idea of Stacking is to learn several different weak learners and combine them by training a meta-model to make prediction.
+![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Result.png)
