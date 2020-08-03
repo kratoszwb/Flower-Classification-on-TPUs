@@ -28,9 +28,7 @@ Following Convolutional Neural Network are planned to be used:
 All the models are built in file named 'Models.py'. We use one model each time and all the other models are commented out. We collect results from
 all the models for ensembling.
 
-On the basis of pre-trained models(with weights of ImgaeNet), we adopt transfer learning to solve the flower classfication problem.
-
-We customize a loss function named cos-layer which is defined in file named 'Models.py'.
+On the basis of pre-trained models(with weights of ImgaeNet), we adopt transfer learning to solve the flower classfication problem. Also, we customize a loss function named cos-layer which is defined in file named 'Models.py'.
 
 Here is an example of the visualization of prediction outcomes.
 
