@@ -47,6 +47,6 @@ Following picutures show the validation process and several metrics of the model
 #### Confusion Matrix Result
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Confusion_Matrix.png)
 
-In the end, the final result (f1 score) reaches to 0.98604, rank 39/848 in learnboard(https://www.kaggle.com/c/flower-classification-with-tpus/leaderboard)
+In the end, the final result (F1-score) reaches to 0.98604, rank 39/848 in learnboard(https://www.kaggle.com/c/flower-classification-with-tpus/leaderboard)
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Result.png)
