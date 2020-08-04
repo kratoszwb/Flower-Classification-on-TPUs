@@ -36,12 +36,10 @@ The process of ensembling is in the file named 'Ensemble.py'. Eventually, 12 mod
 
 ## Result
 
-Here is an example of the validation process.
+Following picutures show the validation process and several metrics of the model.
 
-### Visualization of Prediction Outcomes.
+#### Visualization of Prediction Outcomes.
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Validation.png)
-
-Following picutures show several metrics of the model.
 
 #### Loss And Accuracy of MOdel on Both Training Set and Validatoin Set
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Loss_Accuracy.png)
