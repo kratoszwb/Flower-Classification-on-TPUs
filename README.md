@@ -49,4 +49,4 @@ Following picutures show the validation process and several metrics of the model
 
 In the end, the final result (f1 score) reaches to 0.98604, rank 39/848 in learnboard(https://www.kaggle.com/c/flower-classification-with-tpus/leaderboard)
 
-![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Result.png)
+![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Resultd.png)
