@@ -40,6 +40,12 @@ Here is an example of the visualization of prediction outcomes.
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Validation.png)
 
-In the end, the 
+Following picutures show several metrics of the model.
+
+![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Loss_Accuracy.png)
+
+![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Confusion_Matrix.png)
+
+In the end, the final result (f1 score) reaches to 0.98604, rank 39/848 in learnboard(https://www.kaggle.com/c/flower-classification-with-tpus/leaderboard)
 
 ![alt](https://github.com/kratoszwb/Flower-Classification-on-TPUs/blob/master/image/Result.png)
